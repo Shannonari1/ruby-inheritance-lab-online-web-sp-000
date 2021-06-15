@@ -9,3 +9,6 @@ class Teacher < User
   end
 
   end
+
+shannon = Teacher.new
+shannon.speak 
