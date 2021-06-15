@@ -4,6 +4,8 @@ class Teacher < User
                "javascript async web request", "Ruby method call definition",
                "object oriented dog cat class instance", "class method class variable instance method instance variable",
                "programming computers hacking learning terminal", "bash Ruby rvm update certs"]
+  end
 
-
-end
+  def teach
+     KNOWLEDGE.sample
+   end
