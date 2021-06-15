@@ -8,5 +8,9 @@ class Teacher < User
 
   end
 
-shannon = Teacher.new
-shannon.KNOWLEDGE
+  def teach
+    KNOWLEDGE.sample
+  end
+
+  shannon = Teacher.new("Shannon")
+  puts shannon
