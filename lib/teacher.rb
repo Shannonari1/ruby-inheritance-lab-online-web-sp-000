@@ -12,5 +12,4 @@ class Teacher < User
     KNOWLEDGE.sample
   end
 
-  shannon = Teacher.new("Shannon")
-  puts "Shannon"
+  shannon = Teacher.new()
