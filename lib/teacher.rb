@@ -13,4 +13,4 @@ class Teacher < User
   end
 
   shannon = Teacher.new("Shannon")
-  puts shannon
+  puts "Shannon"
