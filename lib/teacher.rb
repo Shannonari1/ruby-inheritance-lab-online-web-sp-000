@@ -4,9 +4,7 @@ class Teacher < User
                "javascript async web request", "Ruby method call definition",
                "object oriented dog cat class instance", "class method class variable instance method instance variable",
                "programming computers hacking learning terminal", "bash Ruby rvm update certs"]
-  def speak
-     puts "A random string!"
-  end
+
 
   end
 
