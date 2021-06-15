@@ -12,4 +12,4 @@ class Teacher < User
     KNOWLEDGE.sample
   end
 
-puts teach[1]
+
