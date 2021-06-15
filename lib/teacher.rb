@@ -9,8 +9,3 @@ class Teacher < User
   end
 
   end
-
-
-
-
-   
