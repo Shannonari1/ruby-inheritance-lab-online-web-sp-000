@@ -11,4 +11,4 @@ class Teacher < User
   end
 
 shannon = Teacher.new
-shannon.speak 
+shannon.KNOWLEDGE
